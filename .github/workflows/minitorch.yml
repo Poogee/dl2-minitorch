@@ -41,8 +41,8 @@ jobs:
         pytest tests -x -m task2_2
         pytest tests -x -m task2_3
         pytest tests -x -m task2_4
-        # echo "Module 3"
-        # pytest tests -x -m task3_1
-        # pytest tests -x -m task3_2
+        echo "Module 3"
+        pytest tests -x -m task3_1
+        pytest tests -x -m task3_2
         # task3_3 / task3_4 — CUDA-тесты: на раннере GitHub нет GPU, тестов 0 -> pytest падает (exit 5).
         # Их НЕ включать, проверять локально.
